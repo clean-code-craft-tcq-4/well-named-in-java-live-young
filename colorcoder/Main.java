@@ -25,11 +25,7 @@ public class Main {
     }
 
 	public static void main(String[] args) {
-		Test.testNumberToPair(4, MajorColor.WHITE, MinorColor.BROWN);
-		Test.testNumberToPair(5, MajorColor.WHITE, MinorColor.SLATE);
-
-		Test.testPairToNumber(MajorColor.BLACK, MinorColor.ORANGE, 12);
-		Test.testPairToNumber(MajorColor.VIOLET, MinorColor.SLATE, 25);
+		Test.testColorCode();
 		displayManual();
 	}
 }
