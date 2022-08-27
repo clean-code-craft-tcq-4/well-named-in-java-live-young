@@ -20,7 +20,7 @@ public class Test {
 		        assert(pairNumber == expectedPairNumber);
 		    }
 		    
-			public void testColorCode() {
+			static public void testColorCode() {
 				testNumberToPair(4, MajorColor.WHITE, MinorColor.BROWN);
 				testNumberToPair(5, MajorColor.WHITE, MinorColor.SLATE);
 
